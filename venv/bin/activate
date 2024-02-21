@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorDetect/venv"
+VIRTUAL_ENV="/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorSelector/ColorSelector/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,4 +1,4 @@
-#!/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorDetect/venv/bin/python3
+#!/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorSelector/ColorSelector/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

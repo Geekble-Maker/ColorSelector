@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorDetect/venv"
+set -gx VIRTUAL_ENV "/Users/minb/Desktop/_Geekble/_GeekProject/2402_ColorSelector/ColorSelector/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
