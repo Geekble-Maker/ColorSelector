@@ -29,6 +29,13 @@ def click_least_frequent_color_area(full_image, region, color_to_exclude):
         avg_x, avg_y = int(np.mean(xs)), int(np.mean(ys))
         global_x, global_y = avg_x + x, avg_y + y
         pyautogui.click(global_x, global_y)
+    
+    # if len(ys) > 0 and len(xs) > 0: # 키쿠 mac 맵핑용 코드
+    #     avg_x, avg_y = int(np.mean(xs)), int(np.mean(ys))
+    #     global_x, global_y = avg_x + x, avg_y + y
+    #     height, width, channels = full_image.shape
+    #     map_x, map_y = int(global_x * 1199 / width), int(global_y * 834 / height)
+    #     pyautogui.click(map_x, map_y)
 
 color_to_exclude = [221, 221, 221]  # DDDDDD
 region = (630, 265, 640, 640)  # 특정 영역 설정
